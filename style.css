@@ -189,3 +189,9 @@ img {
 .card a:hover {
   color: green;
 }
+.card a {
+  color: darkblue;
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 18px;
+}
