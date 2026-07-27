@@ -180,3 +180,12 @@ img {
   color: green;
   text-decoration: underline;
 }
+.card a {
+  color: #0000ff;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.card a:hover {
+  color: green;
+}
