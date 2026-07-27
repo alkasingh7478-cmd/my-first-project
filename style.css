@@ -195,3 +195,9 @@ img {
   font-weight: bold;
   font-size: 18px;
 }
+.card a {
+  color: darkblue !important;
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 18px;
+}
