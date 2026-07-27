@@ -201,3 +201,9 @@ img {
   font-weight: bold;
   font-size: 18px;
 }
+.card a {
+  color: red !important;
+  background: white;
+  padding: 5px;
+  border-radius: 5px;
+}
