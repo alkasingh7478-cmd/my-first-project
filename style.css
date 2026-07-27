@@ -170,3 +170,13 @@ img {
   border-radius: 15px;
   border: 3px solid darkblue;
 }
+.card a {
+  color: darkblue;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.card a:hover {
+  color: green;
+  text-decoration: underline;
+}
