@@ -209,3 +209,17 @@ img {
   font-weight: bold;
   text-decoration: underline;
 }
+.linkedin-btn {
+  display: inline-block;
+  background: #0A66C2;
+  color: white !important;
+  padding: 10px 25px;
+  border-radius: 25px;
+  text-decoration: none !important;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.linkedin-btn:hover {
+  background: darkblue;
+}
