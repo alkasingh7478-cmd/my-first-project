@@ -202,8 +202,10 @@ img {
   font-size: 18px;
 }
 .card a {
-  color: red !important;
+  color: darkblue !important;
   background: white;
   padding: 5px;
   border-radius: 5px;
+  font-weight: bold;
+  text-decoration: underline;
 }
