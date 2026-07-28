@@ -1,224 +1,177 @@
-/* ===== Google Font ===== */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
-
 *{
-margin:0;
-padding:0;
-box-sizing:border-box;
-scroll-behavior:smooth;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
 }
 
 body{
-font-family:'Poppins',sans-serif;
-background:linear-gradient(135deg,#dbeafe,#ffffff);
-color:#222;
+    background:#f5f7fb;
+    color:#222;
 }
 
-/* ===== Navigation ===== */
+header{
+    background:#111827;
+    padding:20px 8%;
+    position:sticky;
+    top:0;
+}
 
 nav{
-background:#0A66C2;
-padding:18px;
-text-align:center;
-position:sticky;
-top:0;
-z-index:100;
-box-shadow:0 3px 10px rgba(0,0,0,.2);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
 }
 
-nav a{
-color:white;
-text-decoration:none;
-font-size:18px;
-font-weight:600;
-margin:0 15px;
-transition:.3s;
+nav h2{
+    color:white;
 }
 
-nav a:hover{
-color:#ffd54f;
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:20px;
 }
 
-/* ===== Main Card ===== */
-
-.card{
-width:90%;
-max-width:900px;
-margin:40px auto;
-background:white;
-padding:40px;
-border-radius:20px;
-box-shadow:0 15px 35px rgba(0,0,0,.15);
-text-align:center;
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    font-size:16px;
 }
 
-/* ===== Profile Photo ===== */
 
-.profile-pic{
-width:220px;
-height:220px;
-border-radius:50%;
-object-fit:cover;
-border:6px solid #0A66C2;
-box-shadow:0 10px 30px rgba(0,0,0,.25);
-margin-bottom:25px;
+section{
+    padding:60px 8%;
+    text-align:center;
 }
 
-/* ===== Headings ===== */
 
-h1{
-font-size:42px;
-color:#0A66C2;
-margin-bottom:10px;
+#home{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    min-height:80vh;
 }
+
+
+.home-text{
+    width:55%;
+    text-align:left;
+}
+
+
+.home-text h1{
+    font-size:45px;
+    margin-bottom:15px;
+}
+
+
+.home-text h3{
+    color:#2563eb;
+    margin-bottom:15px;
+}
+
+
+.home-text p{
+    line-height:1.6;
+    margin-bottom:25px;
+}
+
+
+.home-image img{
+    width:250px;
+    height:250px;
+    border-radius:50%;
+    object-fit:cover;
+    border:5px solid #2563eb;
+}
+
+
+.btn{
+    display:inline-block;
+    background:#2563eb;
+    color:white;
+    padding:12px 25px;
+    border-radius:25px;
+    text-decoration:none;
+}
+
 
 h2{
-margin-top:35px;
-margin-bottom:15px;
-color:#198754;
-border-bottom:2px solid #198754;
-display:inline-block;
-padding-bottom:6px;
+    margin-bottom:25px;
+    font-size:32px;
 }
 
-p{
-font-size:18px;
-line-height:1.8;
-margin-top:10px;
-}
-/* ===== Skills ===== */
 
-.skills{
-margin-top:20px;
+#about p{
+    max-width:700px;
+    margin:auto;
+    line-height:1.7;
 }
 
-.skills span{
-display:inline-block;
-background:#0A66C2;
-color:white;
-padding:12px 20px;
-margin:8px;
-border-radius:30px;
-font-weight:600;
-transition:.3s;
+
+.skills-box{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:20px;
 }
 
-.skills span:hover{
-background:#198754;
-transform:scale(1.08);
+
+.skills-box div{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
 }
 
-/* ===== Projects ===== */
 
-.projects{
-margin-top:25px;
-padding:25px;
-background:#f8fbff;
-border-radius:15px;
-border-left:6px solid #0A66C2;
-text-align:left;
+.project-card{
+    background:white;
+    margin:20px auto;
+    padding:25px;
+    max-width:600px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
 }
 
-.projects h3{
-color:#0A66C2;
-margin-top:15px;
-}
-
-.projects p{
-margin-bottom:15px;
-}
-
-/* ===== Resume Button ===== */
-
-.resume-btn{
-display:inline-block;
-margin-top:20px;
-padding:12px 25px;
-background:#198754;
-color:white !important;
-text-decoration:none !important;
-border-radius:30px;
-font-weight:bold;
-transition:.3s;
-}
-
-.resume-btn:hover{
-background:#146c43;
-transform:scale(1.05);
-}
-
-/* ===== LinkedIn Button ===== */
-
-.linkedin-btn{
-display:inline-block;
-margin-top:15px;
-padding:12px 25px;
-background:#0A66C2;
-color:white !important;
-text-decoration:none !important;
-border-radius:30px;
-font-weight:bold;
-transition:.3s;
-}
-
-.linkedin-btn:hover{
-background:#084b8a;
-transform:scale(1.05);
-}
-/* ===== Contact ===== */
-
-#contact{
-margin-top:40px;
-}
 
 #contact a{
-color:#0A66C2;
-font-weight:600;
-text-decoration:none;
+    color:#2563eb;
 }
 
-#contact a:hover{
-text-decoration:underline;
+
+footer{
+    background:#111827;
+    color:white;
+    text-align:center;
+    padding:20px;
 }
 
-/* ===== Responsive Design ===== */
 
-@media (max-width:768px){
+@media(max-width:768px){
 
-.card{
-width:95%;
-padding:20px;
-}
+    nav{
+        flex-direction:column;
+        gap:15px;
+    }
 
-h1{
-font-size:30px;
-}
 
-.profile-pic{
-width:170px;
-height:170px;
-}
+    #home{
+        flex-direction:column;
+        text-align:center;
+    }
 
-nav a{
-display:block;
-margin:10px 0;
-}
 
-.skills span{
-display:block;
-margin:10px auto;
-width:220px;
-}
+    .home-text{
+        width:100%;
+        text-align:center;
+    }
 
-.resume-btn,
-.linkedin-btn{
-display:block;
-width:220px;
-margin:15px auto;
-text-align:center;
-}
 
-.projects{
-text-align:center;
-}
+    nav ul{
+        flex-wrap:wrap;
+        justify-content:center;
+    }
+
 }
