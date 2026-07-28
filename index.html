@@ -4,142 +4,295 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Alka Singh | Portfolio</title>
+
     <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+
 </head>
 
 <body>
 
+    <!-- Scroll Top Button -->
+    <button id="topBtn">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Header -->
+
     <header>
+
         <nav>
-            <h2>Alka Singh</h2>
+
+            <h2 class="logo">Alka Singh</h2>
 
             <ul>
+
                 <li><a href="#home">Home</a></li>
+
                 <li><a href="#about">About</a></li>
+
                 <li><a href="#skills">Skills</a></li>
+
                 <li><a href="#projects">Projects</a></li>
+
                 <li><a href="#contact">Contact</a></li>
+
             </ul>
+
         </nav>
+
     </header>
 
+    <!-- Hero -->
 
     <section id="home" class="hero">
 
         <div class="hero-text">
-            <h1>Hello, I'm Alka Singh 👋</h1>
 
-            <h3>Web Development Learner & Frontend Enthusiast</h3>
+            <h3>Hello 👋 I'm</h3>
+
+            <h1>Alka Singh</h1>
+
+            <h2>
+                <span class="typing"></span>
+            </h2>
 
             <p>
-                I am a passionate learner exploring HTML, CSS and GitHub.
-                I love creating clean, responsive and user-friendly websites.
+
+                Passionate about HTML, CSS, GitHub and creating beautiful,
+                responsive websites with modern UI.
+
             </p>
 
-            <<div class="buttons">
+            <div class="buttons">
 
-    <a href="resume.pdf" download class="btn">
-        📄 Download Resume
-    </a>
+                <a href="resume.pdf" download class="btn">
+                    <i class="fas fa-download"></i>
+                    Resume
+                </a>
 
-    <a href="https://www.linkedin.com/in/alka-kushwah-894503416" target="_blank" class="btn">
-        🔗 LinkedIn
-    </a>
+                <a href="https://www.linkedin.com/in/alka-kushwah-894503416"
+                    target="_blank"
+                    class="btn">
 
-    <a href="https://github.com/alkasingh7478-cmd" target="_blank" class="btn">
-        💻 GitHub
-    </a>
+                    <i class="fab fa-linkedin"></i>
+                    LinkedIn
 
-</div>
+                </a>
+
+                <a href="https://github.com/alkasingh7478-cmd"
+                    target="_blank"
+                    class="btn">
+
+                    <i class="fab fa-github"></i>
+                    GitHub
+
+                </a>
+
+            </div>
+
         </div>
 
         <div class="hero-img">
+
             <img src="images/photo.jpg" alt="Alka Singh">
-        </div>
-
-    </section>
-
-
-
-    <section id="about">
-
-        <h2>About Me</h2>
-
-        <p>
-            I am Alka Singh, a fresher interested in web development and
-            technology. I have basic knowledge of HTML, CSS, GitHub and
-            computer fundamentals. I am continuously improving my skills
-            and looking for opportunities to grow.
-        </p>
-
-    </section>
-
-
-
-    <section id="skills">
-
-        <h2>My Skills</h2>
-
-        <div class="cards">
-
-            <div class="card">HTML</div>
-            <div class="card">CSS</div>
-            <div class="card">GitHub</div>
-            <div class="card">Basic Computer Knowledge</div>
 
         </div>
 
     </section>
 
+    <!-- About -->
 
+    <section id="about" class="reveal">
 
-    <section id="projects">
+        <h2 class="section-title">
+            About Me
+        </h2>
 
-        <h2>My Projects</h2>
+        <div class="about-box">
 
-        <div class="cards">
+            <p>
 
-            <div class="card">
+                I am Alka Singh, a passionate fresher who loves web
+                development.
+
+                I enjoy learning new technologies and continuously
+                improving my skills in HTML, CSS and GitHub.
+
+                My goal is to become a professional Front-End
+                Web Developer.
+
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- Skills -->
+
+    <section id="skills" class="reveal">
+
+        <h2 class="section-title">
+            My Skills
+        </h2>
+
+        <div class="skill">
+
+            <p>HTML</p>
+
+            <div class="progress">
+
+                <span style="width:95%;"></span>
+
+            </div>
+
+        </div>
+
+        <div class="skill">
+
+            <p>CSS</p>
+
+            <div class="progress">
+
+                <span style="width:85%;"></span>
+
+            </div>
+
+        </div>
+
+        <div class="skill">
+
+            <p>GitHub</p>
+
+            <div class="progress">
+
+                <span style="width:80%;"></span>
+
+            </div>
+
+        </div>
+
+        <div class="skill">
+
+            <p>Basic Computer</p>
+
+            <div class="progress">
+
+                <span style="width:90%;"></span>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Projects -->
+
+    <section id="projects" class="reveal">
+
+        <h2 class="section-title">
+            Projects
+        </h2>
+
+        <div class="project-container">
+
+            <div class="project-card">
+
+                <i class="fas fa-laptop-code"></i>
+
                 <h3>Portfolio Website</h3>
+
                 <p>
-                    Created a personal portfolio website using HTML,
-                    CSS and GitHub.
+
+                    Personal portfolio built using
+                    HTML, CSS and GitHub.
+
                 </p>
+
             </div>
 
+            <div class="project-card">
 
-            <div class="card">
-                <h3>Web Design Practice</h3>
+                <i class="fas fa-code"></i>
+
+                <h3>Responsive Web Design</h3>
+
                 <p>
-                    Practiced responsive layouts and modern UI designs.
+
+                    Practice project focused on responsive
+                    layouts and UI.
+
                 </p>
+
             </div>
 
         </div>
 
     </section>
 
+    <!-- Contact -->
 
+    <section id="contact" class="reveal">
 
-    <section id="contact">
+        <h2 class="section-title">
+            Contact Me
+        </h2>
 
-        <h2>Contact Me</h2>
+        <div class="contact-box">
 
-        <p>Email: <a
-            href="mailto:alkasingh7478@gmail.com">alkasingh7478@gmail.com
-        </a></p>
+            <p>
+
+                <i class="fas fa-envelope"></i>
+
+                <a href="mailto:alkasingh7478@gmail.com">
+
+                    alkasingh7478@gmail.com
+
+                </a>
+
+            </p>
+
+            <p>
+
+                <i class="fab fa-github"></i>
+
+                github.com/alkasingh7478-cmd
+
+            </p>
+
+            <p>
+
+                <i class="fab fa-linkedin"></i>
+
+                linkedin.com/in/alka-kushwah-894503416
+
+            </p>
+
+        </div>
 
     </section>
 
-
+    <!-- Footer -->
 
     <footer>
 
-        <p>© 2026 Alka Singh | Portfolio</p>
+        <p>
+
+            © 2026 Alka Singh | All Rights Reserved
+
+        </p>
 
     </footer>
 
+    <script src="script.js"></script>
 
 </body>
 
